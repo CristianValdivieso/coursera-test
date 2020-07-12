@@ -1,13 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
 /*-------------HEADER----*/
 #navbar-header{
     background-color: rgb(1, 73, 73);
 }
-/*-----NAVBRAND--------*/
+/*-------------NAVBRAND------------*/
+#nav-brand{
+    color: white;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+}
+/*----------LIST OF TOGGLE----------*/
+#bs-example-navbar-collapse-1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 1.7em;
+}
+/*----------MAIN CONTENT----------*/
+#title h2#menu-category{
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+#first-menu{
+    margin: 10px 15px;
+    background-color: rgb(134, 130, 136);
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Monda', sans-serif;
+}
+#first-menu h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#first-menu p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+/***************  MD / LG  DEVICES************/
 @media (min-width: 992px){
-    #nav-brand{
-        color: white;
-        font-weight: bold;
-        padding-top: 0px;
-        margin-bottom: 30px;
+    
+}
+/***************  SMALL DEVICES***************/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/***************  EXTRA SMALL DEVICES************/
+@media (max-width: 767px){
+    #nav-brand h1{
+        margin-left: 50px;
+    }
+    #first-menu{
+        margin: 10px 70px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
