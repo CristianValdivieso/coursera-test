@@ -1,0 +1,13 @@
+/*-------------HEADER----*/
+#navbar-header{
+    background-color: rgb(1, 73, 73);
+}
+/*-----NAVBRAND--------*/
+@media (min-width: 992px){
+    #nav-brand{
+        color: white;
+        font-weight: bold;
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+}
