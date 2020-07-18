@@ -19,7 +19,6 @@ for (var name in names2) {
 
 function makeMultiplier (multiplier){
     // var multiplier = 2
-
     function b() {
         console.log("Multiplier is: " + multiplier);
     }
